@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #include <math.h>
 
-// For this program, I want to get user input asking how many minutes > turn int oseconds.
+// For this program, I want to get user input asking how many minutes > turn into seconds.
 
 int main () {
 	
@@ -12,7 +12,7 @@ int main () {
 	scanf("%d", &minutes);
 	
 	totaltime = minutes * ms;
-	printf("\nTotal seconds is : %f ", totaltime);
+	printf("\nTotal seconds is : %f \n", totaltime);
 	
 	
 	return (0);
